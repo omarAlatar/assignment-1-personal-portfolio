@@ -1,0 +1,143 @@
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+.container {
+    margin: 38px auto;
+    width: 60%;
+}
+.center-text{
+    text-align: center;
+}
+.main-header {
+    background-color: #18477a;
+    border-radius: 25px;
+    padding:40px 0;
+}
+.float{
+    float:left;
+}
+.fixFloat{
+    clear:both
+}
+.card{
+    padding:40px;
+    border: 1px solid rgb(216, 223, 233, 0.5);
+    background-color: white;
+    box-sizing: border-box;
+}
+h2{
+    border-bottom: 1px solid #d8ecff;
+    color: #18477a;
+    padding-block: 10px;
+    margin-top: 0;
+    padding-top: 0;
+}
+.light-border {
+    border-bottom: 1px solid  #4c7298;
+}
+h1{
+    font-size: 30px;
+}
+.color-w{
+    color: #ffffff;
+}
+.color-Sblue{
+    color:#0664b7;
+}
+.color-Lblue{
+    color:lightblue;
+}
+.info{
+    margin-block: 35px;
+}
+.info p:nth-child(1){
+    font-size: 18px;
+}
+.main-header button {
+    border: 1px solid #6690bd;
+    background-color: #336497;
+    padding: 10px;
+    margin: 5px;
+}
+.br-25{
+    border-radius: 25px;
+}
+#aboutMe img{
+    width:150px;
+    border-radius: 50%;
+    margin:0 20px;
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+#aboutMe a,#Contact a{
+text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #6690bd;
+    background-color: #336497;
+    border-radius: 8px;
+}
+#Contact.card,#Contact.card h2{
+    background-color: #18477a;
+    color:white;
+}
+
+body{
+    background-color: #e7edf5;
+}
+.skillCard{
+    width: 95%;
+    margin: 0 auto;
+}
+#Skills h3{
+    color:#0b65c6;
+}
+.cardSkill{
+    background-color: #f8fbff;
+    width: 23%;
+    box-sizing: border-box;
+    margin: 1%;
+    min-height: 170px;
+    min-width: 140px;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+.footer-Section{
+    background-color: rgb(7, 26, 53);
+    color: white;
+    border-radius: 25px;
+}
+
+#Experience .expCard span{
+    display: block;
+    margin:5px;
+}
+.expCard{
+    background-color: #f8fafc;
+    border-left: 4px solid #1a73e8;
+    border-radius: 12px;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+#Experience img{
+    width: 50px;
+    margin: 20px;
+
+}
+.img-bg{
+    background-color: white;
+    border: 1px solid rgb(219, 234, 254);
+    margin:15px 10px;
+    border-radius: 10px;
+}
+#Contact p{
+    margin:30px 0;
+}
+#aboutMe .info a{
+    margin-top: 10px;
+    display: inline-block;
+}
